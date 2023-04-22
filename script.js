@@ -1,4 +1,4 @@
 let plaintext = document.getElementById("english").value;
-for (var i = 0; i < plaintext.length; i++) {
-    console.log(plaintext.charAt(i));
-}
+var split = plaintext.split('');
+alert(JSON.stringify(split));
+console.log(split)
